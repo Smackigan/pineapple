@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import SubscribeError from './SubscribeError';
 
 function SubscribeInput() {
 	const [isInputFocused, setIsInputFocused] = useState(false);
@@ -19,10 +20,9 @@ function SubscribeInput() {
 					name="email"
 					type="email"
 					placeholder="Type your email address here…"
-					value=""
 					onFocus={handleFocus}
 					onBlur={handleBlur}
-					className="text-[16px] leading-[24px] font-normal font-arial relative w-full border border-[#E3E3E4] h-[70px] bg-[#FFF] placeholder-[#6A707B] focus:border-[#4066A5] focus:outline-none pl-[40px] py-[23px] border-l-4 border-l-[#4066A5] hover:shadow-lg "
+					className="leading-[24px] font-arial placeholder:text-16px placeholder:font-arial placeholder:font-normal relative w-full border border-[#E3E3E4] h-[70px] bg-[#FFF] placeholder-[#6A707B] focus:border-[#4066A5] focus:outline-none pl-[40px] py-[23px] border-l-4 border-l-[#4066A5] hover:shadow-lg "
 				/>
 				<div className="py-[20px] px-[15px] absolute left-[414px] top-[8px] ">
 					<svg
@@ -33,14 +33,9 @@ function SubscribeInput() {
 					</svg>
 				</div>
 			</div>
-
-			<span class="flex items-center font-medium tracking-wide text-red-500 text-xs mt-1 ml-1">
-				Invalid username field !
-			</span>
+			<SubscribeError />
 		</div>
 	);
 }
 
 export default SubscribeInput;
-
-// fill-[#131821] {/* <img src="/img/ic_arrow.svg" alt="arrow-icon" /> */}
