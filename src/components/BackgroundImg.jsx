@@ -2,7 +2,7 @@
 
 function BackgroundImg() {
 	return (
-		<div className="w-[1240px]">
+		<div className="">
 			<img src="/img/image_summer.png" alt="Backgrnd img" />
 		</div>
 	);

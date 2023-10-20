@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function SubscribeTerms() {
 	return (
-		<div class="flex items-center">
+		<div class="flex items-center mt-[50px]">
 			<input
 				id="link-checkbox"
 				type="checkbox"
@@ -24,10 +24,11 @@ function SubscribeTerms() {
 					fill="white"
 				/>
 			</svg>
+
 			<label className=" ml-4 inline-flex text-[#6A707B] font-arial text-[16px] font-normal leading-[26px]">
 				I agree to
 				<Link to="/">
-					<p className="text-[#131821] ml-1 underline font-arial text-[16px] font-normal leading-[26px] hover:text-[#4066A5] active:text-[#233759]">
+					<p className="text-[#131821] ml-1 underline font-arial text-[16px] font-normal leading-[26px] hover:text-[#4066A5] visited:text-[#233759]">
 						terms of service
 					</p>
 				</Link>

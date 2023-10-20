@@ -7,3 +7,16 @@ body {
 	padding: 0;
 	box-sizing: border-box;
 }
+
+/* input:active {
+	background-color: aqua;
+}
+
+input:focus {
+	background-color: green;
+	border: none;
+}
+
+input:hover {
+	background-color: blueviolet;
+} */
