@@ -8,6 +8,11 @@ body {
 	box-sizing: border-box;
 }
 
+.icon-container:hover svg path {
+	fill: #fff;
+	opacity: 1;
+}
+
 /* input:active {
 	background-color: aqua;
 }
