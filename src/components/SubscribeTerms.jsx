@@ -11,7 +11,7 @@ function SubscribeTerms() {
 	console.log(isChecked);
 
 	return (
-		<div className="flex items-center mt-[50px]">
+		<div className="flex items-center sm:mt-[50px]">
 			<input
 				id="link-checkbox"
 				type="checkbox"

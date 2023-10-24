@@ -13,6 +13,11 @@ body {
 	opacity: 1;
 }
 
+.background {
+	background: url('../public/img/image_summer.png') lightgray 50% / cover
+		no-repeat;
+}
+
 /* input:active {
 	background-color: aqua;
 }

@@ -30,8 +30,9 @@ function Footer() {
 
 	return (
 		<>
-			<div className="w-[480px] h-[1px] bg-[#E3E3E4] mt-[50px] mx-[100px]"></div>
-			<div className="flex mt-[50px] mx-[218px] justify-between">
+			<div className="w-[295px] sm:w-[480px] h-[1px] bg-[#E3E3E4] mt-[20px] sm:mt-[50px] sm:mx-0 md:mx-0"></div>
+
+			<div className="flex w-[214px] sm:w-[244px] mx-auto mt-5 sm:mt-[50px] justify-between">
 				{socialLinks.map((link, index) => (
 					<a key={index} href={link.url}>
 						<div

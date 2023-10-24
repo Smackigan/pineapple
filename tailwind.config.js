@@ -11,6 +11,15 @@ module.exports = {
 				lg: '0 30px 40px 0 rgba(19, 24, 33, 0.06)',
 			},
 		},
+		screens: {
+			sm: '375px',
+			md: '834px',
+			lg: '1920px',
+		},
+		backgroundImage: {
+			main: "url('../public/img/image_summer.png')",
+			gradient: 'linear-gradient(180deg, #FFF 0%, #F2F5FA 100%)',
+		},
 	},
 	plugins: [],
 };

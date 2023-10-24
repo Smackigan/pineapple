@@ -22,7 +22,7 @@ function SubscribeInput() {
 	};
 
 	return (
-		<div class="flex flex-col mb-4 mt-[50px]">
+		<div class="flex flex-col mb-5 sm:mb-0 mt-5 sm:mt-[50px]">
 			<div class="relative">
 				<input
 					id="email"
@@ -33,9 +33,9 @@ function SubscribeInput() {
 					onBlur={handleBlur}
 					onMouseEnter={handleHover}
 					onMouseLeave={handleLeave}
-					className={`leading-[24px] font-arial placeholder:text-[16px] placeholder:font-arial placeholder:font-normal relative w-full pl-[40px] py-[23px] border-l-4 border-l-[#4066A5] border border-[#E3E3E4] h-[70px] bg-[#FFF] placeholder-[#6A707B] focus:shadow-lg hover:border-[#4066A5] hover:shadow-lg active:border-[#4066A5] outline-none `}
+					className={`leading-[24px] font-arial placeholder:text-[16px] placeholder:font-arial placeholder:font-normal relative w-full pl-[15px] sm:pl-[40px] py-[18px] sm:py-[23px] border-l-4 border-l-[#4066A5] border border-[#E3E3E4] h-[60px] sm:h-[70px] bg-[#FFF] placeholder-[#6A707B] focus:shadow-lg hover:border-[#4066A5] hover:shadow-lg active:border-[#4066A5] outline-none `}
 				/>
-				<div className="py-[20px] px-[15px] absolute left-[414px] top-[8px] ">
+				<div className="py-[20px] px-[15px] absolute left-[242px] sm:left-[414px] top-[2px] sm:top-[8px] ">
 					<svg
 						width="24"
 						height="14"
