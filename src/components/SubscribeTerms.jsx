@@ -1,21 +1,17 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
-function SubscribeTerms() {
-	const [isChecked, setIsChecked] = useState(false);
-
-	const handleCheckboxChange = () => {
-		setIsChecked(!isChecked);
+function SubscribeTerms({ setIsChecked, setIsInputTouched }) {
+	const handleCheckboxChange = (e) => {
+		setIsChecked(e.target.checked);
+		setIsInputTouched(true);
 	};
 
-	console.log(isChecked);
-
 	return (
-		<div className="flex items-center sm:mt-[50px]">
+		<div className="flex items-center sm:mt-[27px]">
 			<input
 				id="link-checkbox"
 				type="checkbox"
-				checked={isChecked}
 				onChange={handleCheckboxChange}
 				className="w-[26px] h-[26px] relative peer appearance-none text-blue-600 border-[#E3E3E4] rounded-[3px] border-[1px] bg-white checked:bg-[#233759] active:bg-[#4066A5] checked:border-0 focus:outline-none focus:ring-offset-0"
 			/>
