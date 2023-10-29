@@ -3,18 +3,18 @@ import SubscribeInfo from './SubscribeInfo';
 import SubscribeInput from './SubscribeInput';
 import SubscribeTerms from './SubscribeTerms';
 
-function Subscribe() {
+function Subscribe({ isSuccess, setIsSuccess }) {
 	const [isChecked, setIsChecked] = useState(false);
 	const [error, setError] = useState('');
 	const [isInputTouched, setIsInputTouched] = useState(false);
 
-	const handleInputError = (inputError) => {
-		setError(inputError);
-	};
+	// const handleInputError = (inputError) => {
+	// 	setError(inputError);
+	// };
 
-	const handleCheckboxError = (checkboxError) => {
-		setError(checkboxError);
-	};
+	// const handleCheckboxError = (checkboxError) => {
+	// 	setError(checkboxError);
+	// };
 
 	return (
 		<div className="flex flex-col">
@@ -26,6 +26,8 @@ function Subscribe() {
 				setError={setError}
 				isInputTouched={isInputTouched}
 				setIsInputTouched={setIsInputTouched}
+				isSuccess={isSuccess}
+				setIsSuccess={setIsSuccess}
 			/>
 			<SubscribeTerms
 				isChecked={isChecked}

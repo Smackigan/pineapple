@@ -1,10 +1,11 @@
-import React from 'react';
+import { ReactComponent as LogoPineapple } from '../assets/logo_pineapple.svg';
+import { ReactComponent as LogoPineappleOnly } from '../assets/logo_pineapple_only.svg';
 
 function Logo() {
 	return (
 		<div>
-			<img src="/img/logo_pineapple_only.svg" className="sm:hidden" />
-			<img src="/img/logo_pineapple.svg" className="hidden sm:block" />
+			<LogoPineappleOnly className="sm:hidden" />
+			<LogoPineapple className="hidden sm:block" />
 		</div>
 	);
 }
