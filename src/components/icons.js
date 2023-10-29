@@ -11,3 +11,30 @@ const Icons = {
 };
 
 export default Icons;
+
+const socialLinks = [
+	{
+		icon: <Icons.Facebook />,
+		url: '#',
+		hoverColor: '#4267B2',
+		activeColor: '#2F4A80',
+	},
+	{
+		icon: <Icons.Instagram />,
+		url: '#',
+		hoverColor: '#C13584',
+		activeColor: '#8F2762',
+	},
+	{
+		icon: <Icons.Twitter />,
+		url: '#',
+		hoverColor: '#1DA1F2',
+		activeColor: '#177FBF',
+	},
+	{
+		icon: <Icons.Youtube />,
+		url: '#',
+		hoverColor: '#FF0000',
+		activeColor: '#CC0000',
+	},
+];

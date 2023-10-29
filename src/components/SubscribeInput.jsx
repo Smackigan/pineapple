@@ -97,7 +97,7 @@ function SubscribeInput({
 		error
 			? 'border-[#B80808] border-l-4 shadow-lg hover:border-[#B80808] '
 			: 'border-l-4 border-l-[#4066A5]'
-	} border  h-[60px] sm:h-[70px] bg-[#FFF] placeholder-[#6A707B] focus:shadow-lg hover:border-[#4066A5] hover:shadow-lg active:border-[#4066A5] outline-none`;
+	} border  h-[60px] sm:h-[70px] bg-[#FFF] placeholder-[#6A707B] focus:shadow-lg hover:border-[#4066A5] hover:shadow-input active:border-[#4066A5] outline-none`;
 
 	return (
 		<div class="flex flex-col mb-5 sm:mb-0  mt-5 sm:mt-[50px]">

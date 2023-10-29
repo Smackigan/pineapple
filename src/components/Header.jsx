@@ -5,7 +5,7 @@ import Navigation from './Navigation';
 function Header({ className }) {
 	return (
 		<header
-			className={`flex sm:inline-flex justify-between  bg-white sm:w-[520px] h-[66px] sm:mt-[90px] px-5 sm:px-0 pt-[10px] pb-4 z-10  ${className}`}>
+			className={`flex sm:inline-flex justify-between bg-white sm:w-[520px] h-[66px] sm:mt-[90px] px-5 sm:px-0 pt-[10px] pb-4 z-10  ${className}`}>
 			<Logo />
 			<Navigation />
 		</header>

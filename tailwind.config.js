@@ -8,7 +8,8 @@ module.exports = {
 				georgia: ['Georgia'],
 			},
 			boxShadow: {
-				lg: '0 30px 40px 0 rgba(19, 24, 33, 0.06)',
+				input: '0 30px 40px 0 rgba(19, 24, 33, 0.06)',
+				icon: '0px 20px 40px 0px rgba(19, 24, 33, 0.3)',
 			},
 		},
 		screens: {
