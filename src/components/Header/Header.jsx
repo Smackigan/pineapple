@@ -1,11 +1,11 @@
 import React from 'react';
 import Logo from './Logo';
 import Navigation from './Navigation';
+import styles from './Header.module.scss';
 
-function Header({ className }) {
+function Header() {
 	return (
-		<header
-			className={`flex sm:inline-flex justify-between bg-white sm:w-[520px] h-[66px] sm:mt-[90px] px-5 sm:px-0 pt-[10px] pb-4 z-10  ${className}`}>
+		<header>
 			<Logo />
 			<Navigation />
 		</header>

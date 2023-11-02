@@ -1,0 +1,23 @@
+.form {
+	position: relative;
+	background: linear-gradient(180deg, #fff 0%, #f2f5fa 100%);
+	height: 368px;
+	padding: 30px 20px;
+	width: 335px;
+	margin-left: 20px;
+	z-index: 30;
+	top: 189px;
+}
+
+@media (min-width: 375px) {
+	.form {
+		position: absolute;
+		top: 269px;
+		background: transparent;
+
+		padding: 0px 0px;
+		width: 480px;
+		margin-left: 0;
+		left: 100px;
+	}
+}

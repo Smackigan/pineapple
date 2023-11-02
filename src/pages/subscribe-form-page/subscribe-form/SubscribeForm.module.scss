@@ -1,0 +1,82 @@
+.checkbox {
+	width: 26px;
+	height: 26px;
+	position: relative;
+	appearance: none;
+
+	&.peer {
+		color: blue-600;
+		border: 1px solid #e3e3e4;
+		border-radius: 3px;
+		background: white;
+		&.checked {
+			background: #233759;
+			&.active {
+				background: #4066a5;
+				border: 0;
+			}
+		}
+		&:focus {
+			outline: none;
+		}
+	}
+}
+
+.input {
+	z-index: 50;
+	line-height: 24px;
+	font-family: 'Arial', sans-serif;
+	position: relative;
+	width: 295px;
+	padding-left: 15px;
+	padding-top: 18px;
+	border: 4px solid #4066a5;
+	height: 60px;
+	background-color: #fff;
+
+	&::placeholder {
+		font-size: 16px;
+		font-family: 'Arial', sans-serif;
+		font-weight: normal;
+	}
+
+	&:focus {
+		box-shadow: 0 0 0 4px #4066a5;
+	}
+	&:hover {
+		border: 4px solid #4066a5;
+		box-shadow: 0 0 0 4px #4066a5;
+	}
+	&:active {
+		border: 4px solid #4066a5;
+	}
+}
+
+@media (min-width: 375px) {
+	.input {
+		width: 480px;
+		padding-left: 40px;
+		padding-top: 23px;
+		&::placeholder {
+			font-size: 16px;
+			font-family: 'Arial', sans-serif;
+			font-weight: normal;
+		}
+		border: 4px solid #4066a5;
+		height: 70px;
+		background-color: #fff;
+		&::placeholder {
+			color: #6a707b;
+		}
+		&:focus {
+			box-shadow: 0 0 0 4px #4066a5;
+		}
+		&:hover {
+			border: 4px solid #4066a5;
+			box-shadow: 0 0 0 4px #4066a5;
+		}
+		&:active {
+			border: 4px solid #4066a5;
+		}
+	}
+}

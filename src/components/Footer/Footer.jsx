@@ -1,11 +1,13 @@
+import styles from './Footer.module.scss';
+
 function Footer() {
 	return (
-		<>
-			<div className="w-[295px] sm:w-[480px] h-[1px] bg-[#E3E3E4] mt-[20px] sm:mt-[50px] sm:mx-0 md:mx-0"></div>
+		<div className="absolute z-30 sm:z-0 sm:top-0 sm:mt-0 ml-[40px] sm:ml-0">
+			<div className={styles.separator}></div>
 
-			<div className="flex w-[214px] sm:w-[244px] mx-auto mt-5 sm:mt-[50px] justify-between">
+			<div className=" flex w-[214px] sm:w-[244px] mx-auto sm:ml-[218px] mt-5 sm:mt-[50px] justify-between">
 				<a
-					href="#"
+					href="/"
 					className="icon-container w-[46px] h-[46px] border-[2px] border-[#E2E3E4] rounded-full flex items-center justify-center hover:bg-[#4267B2] hover:border-[#4267B2] hover:shadow-icon active:bg-[#2F4A80] active:border-[#2F4A80]">
 					<svg
 						width="8"
@@ -22,7 +24,7 @@ function Footer() {
 				</a>
 
 				<a
-					href="#"
+					href="/"
 					className="icon-container w-[46px] h-[46px] border-[2px] border-[#E2E3E4] rounded-full flex items-center justify-center hover:bg-[#C13584] hover:border-[#C13584] hover:shadow-icon active:bg-[#8F2762] active:border-[#8F2762]">
 					<svg
 						width="16"
@@ -39,7 +41,7 @@ function Footer() {
 				</a>
 
 				<a
-					href="#"
+					href="/"
 					className="icon-container w-[46px] h-[46px] border-[2px] border-[#E2E3E4] rounded-full flex items-center justify-center hover:bg-[#1DA1F2] hover:border-[#1DA1F2] hover:shadow-icon active:bg-[#177FBF] active:border-[#177FBF]">
 					<svg
 						width="16"
@@ -56,7 +58,7 @@ function Footer() {
 				</a>
 
 				<a
-					href="#"
+					href="/"
 					className="icon-container w-[46px] h-[46px] border-[2px] border-[#E2E3E4] rounded-full flex items-center justify-center hover:bg-[#FF0000] hover:border-[#FF0000] hover:shadow-icon active:bg-[#CC0000] active:border-[#CC0000]">
 					<svg
 						width="16"
@@ -72,7 +74,7 @@ function Footer() {
 					</svg>
 				</a>
 			</div>
-		</>
+		</div>
 	);
 }
 

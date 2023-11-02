@@ -8,7 +8,7 @@ function SubscribeTerms({ isChecked, setIsChecked, setIsInputTouched }) {
 	};
 
 	return (
-		<div className="flex items-center sm:mt-[27px]">
+		<div className="flex items-center sm:mt-[27px] z-50">
 			<input
 				id="link-checkbox"
 				type="checkbox"
