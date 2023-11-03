@@ -6,7 +6,7 @@ function SubscribeInfo() {
 		<>
 			<Typography type="h2">Subscribe to newsletter</Typography>
 			<Typography type="p">
-				Subscribe to our newsletter and get a 10% discount on pineapple
+				Subscribe to our newsletter and get 10% discount on pineapple
 				glasses.
 			</Typography>
 		</>
